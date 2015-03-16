@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="One Time Pad"
+        android:text="@string/one_time_pad"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:textSize="30sp"
@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Key: "
+            android:text="@string/key"
             android:layout_weight="0" />
 
         <EditText
@@ -45,7 +45,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Message: "
+            android:text="@string/message"
             android:layout_weight="0" />
 
         <EditText
@@ -65,7 +65,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Encrypted text: "
+            android:text="@string/encrypt_txt"
             android:layout_weight="0" />
 
         <TextView
@@ -85,7 +85,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Decrypted text: "
+            android:text="@string/decrypt_txt"
             android:layout_weight="0" />
 
         <TextView
@@ -100,7 +100,7 @@
         android:id="@+id/encryptButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Encrypt/Decrypt"
+        android:text="@string/encrypt_decrypt"
         android:layout_marginTop="20dp" />
 
 </LinearLayout>
