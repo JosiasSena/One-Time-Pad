@@ -103,17 +103,4 @@
         android:text="Encrypt/Decrypt"
         android:layout_marginTop="20dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Visit this GitHub link to see the code behind the scenes" />
-
-    <TextView
-        android:id="@+id/gitLink"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Visit this GitHub link to see the code behind the scenes" />
-
-
 </LinearLayout>
